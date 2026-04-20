@@ -8,3 +8,6 @@ df.info()
 df.columns
 
 sns.histplot(df, x='price')
+sns.svatterplot(df, x='price', y='age')
+
+df.tail()
